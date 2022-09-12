@@ -12,7 +12,7 @@ class ExampleStack(Stack):
         PythonLayerVersion(
                 self,
                 'LibraryLayer',
-                entry='libraries',
+                entry='layer',
                 compatible_runtimes=[lambdas.Runtime.PYTHON_3_9],
                 compatible_architectures=[lambdas.Architecture.ARM_64],
             )
